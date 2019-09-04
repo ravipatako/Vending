@@ -18,7 +18,9 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 
-import javax.xml.soap.Text;
+// import javax.xml.soap.Text; // This is the wrong class should be:
+import javafx.scene.text.Text;
+
 
 public class Main extends Application {
 
