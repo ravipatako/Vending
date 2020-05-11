@@ -20,8 +20,8 @@ public class main{
         System.out.println("2 - Input Inventory");
         System.out.println("3 - Get Report");
 
+        System.out.println("Enter Number here :");
         int menu = sc.nextInt(); //creating the variable for the menu selection
-
 
 
     }
