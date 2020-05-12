@@ -24,5 +24,19 @@ public class main{
         int menu = sc.nextInt(); //creating the variable for the menu selection
 
 
+        //This is the menu if else statement for 
+        if (menu == 1)  {
+            System.out.println("It works!");
+        }
+        else if (menu == 2) {
+
+        }
+        else if (menu == 3) {
+
+        } else {
+            System.out.println("Please restart the menu!");
+        }
+
+
     }
 }
