@@ -11,8 +11,6 @@ import java.util.Scanner;
 public class main{
     public static void main(String args[]){
 
-
-
         Scanner sc = new Scanner(System.in); //creating menu scanner
 
         //right here is the main menu words
@@ -28,7 +26,7 @@ public class main{
 
         //This is the menu if else statement for
         if (menu == 1)  {
-            moneyCollection();
+
         }
         else if (menu == 2) {
             casesCollected();
@@ -41,13 +39,7 @@ public class main{
 
 
     }
-    //This method below will do the tracking for the money that is collected from the machine
-   public static double moneyCollection(){
-       System.out.println("Please enter the amount that was collected today: ");
-       Scanner da = new Scanner(System.in);
 
-       return da.nextInt();
-   }
     //This method below will keep track of the cases of soda that are used
    public static int casesCollected (){
        System.out.println("Dope");
