@@ -11,6 +11,8 @@ import java.util.Scanner;
 public class main{
     public static void main(String args[]){
 
+
+
         Scanner sc = new Scanner(System.in); //creating menu scanner
 
         //right here is the main menu words
@@ -26,10 +28,10 @@ public class main{
 
         //This is the menu if else statement for
         if (menu == 1)  {
-            System.out.println("It works!");
+            moneyCollection();
         }
         else if (menu == 2) {
-
+            casesCollected();
         }
         else if (menu == 3) {
 
@@ -39,4 +41,14 @@ public class main{
 
 
     }
+   public static int moneyCollection(){
+        System.out.println("Its kinda working?");
+
+        return 0;
+   }
+
+   public static int casesCollected (){
+       System.out.println("Dope");
+        return  0;
+   }
 }
