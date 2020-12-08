@@ -41,12 +41,14 @@ public class main{
 
 
     }
-   public static int moneyCollection(){
-        System.out.println("Its kinda working?");
+    //This method below will do the tracking for the money that is collected from the machine
+   public static double moneyCollection(){
+       System.out.println("Please enter the amount that was collected today: ");
+       Scanner da = new Scanner(System.in);
 
-        return 0;
+       return da.nextInt();
    }
-
+    //This method below will keep track of the cases of soda that are used
    public static int casesCollected (){
        System.out.println("Dope");
         return  0;
