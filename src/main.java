@@ -7,7 +7,7 @@ import java.util.Scanner;
  * to figure out my monthly profits. Enjoy the work!!
  */
 
-
+//Seeing if this comment gets to GitHub
 public class main{
     public static void main(String args[]){
 
