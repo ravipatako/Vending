@@ -26,7 +26,7 @@ public class main{
 
         //This is the menu if else statement for
         if (menu == 1)  {
-
+            moneyCollection.collectionAmount();
         }
         else if (menu == 2) {
             casesCollected();
