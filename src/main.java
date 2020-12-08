@@ -17,7 +17,7 @@ public class main{
         System.out.println("Welcome to the main menu \n");
         System.out.println("Select from the menu: ") ;
         System.out.println("1 - Input Collection");
-        System.out.println("2 - Input Inventory");
+        System.out.println("2 - Add cases purchased");
         System.out.println("3 - Get Report");
 
         System.out.println("Enter Number here :");
