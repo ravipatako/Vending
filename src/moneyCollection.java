@@ -4,20 +4,23 @@ import java.util.Date;
 
 //This is now a new class, I thought it would be good to have a method but turns out a class might just work better
 public class moneyCollection {
-    public static double collectionAmount(){
+    public static void collectionAmount(){
         //Creating the date object
         Date todayDate = new Date();
 
         //Creating the scanner for the amount
         Scanner newScanner = new Scanner(System.in);
         System.out.println("Please enter the amount: ");
-        double moneyCollected = newScanner.nextDouble();
+        int moneyCollected = newScanner.nextInt();
 
         //Printing out everything that was collected
         System.out.println("Today " + todayDate + " You collected: " + moneyCollected);
 
-        //returning the money that was collected at set date to be used elsewhere
-        return moneyCollected;
+        //Creating the array list to have all the collection amounts
+        ArrayList<Integer> collectionAmounts = new ArrayList<Integer>();
+        collectionAmounts.add(moneyCollected);
+
+
     }
     //This method below takes the cases total collected
     public static void totalCollected(){
@@ -34,14 +37,5 @@ public class moneyCollection {
         **/
         //Creating a while loop to go through the array and check if there is an element. If there is none then it stops
 
-        while(int b = 0; b < 5){
-            if(casesCollected[i] == 0){
-                return casesCollected[i];
-            }
-            else {
-
-            }
-            b++;
-        }
     }
 }
