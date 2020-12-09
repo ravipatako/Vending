@@ -32,11 +32,10 @@ public class main{
             moneyCollection.totalCollected();
         }
         else if (menu == 3) {
-
+            System.out.println("Sorry not an option at the moment");
         } else {
             System.out.println("Please restart the menu!");
         }
-
 
     }
 }

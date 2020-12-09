@@ -15,7 +15,6 @@ public class moneyCollection {
         //Printing out everything that was collected
         System.out.println("Today " + todayDate + " You collected: " + moneyCollected);
 
-
         //returning the money that was collected at set date to be used elsewhere
         return moneyCollected;
     }
@@ -27,9 +26,21 @@ public class moneyCollection {
          * The each element of the array is the responding to each month. Element 0 is for Jan 2021.
          **/
 
-        for(int i = 0; i < casesCollected.length; i++){
+        /** for(int i = 0; i < casesCollected.length; i++){
             System.out.println("Enter the numbers");
             casesCollected[i] = inputCases.nextInt();
+        }
+        **/
+        //Creating a while loop to go through the array and check if there is an element. If there is none then it stops
+        int b = 0;
+        while(b < 5){
+            if(casesCollected[i] == 0){
+                return casesCollected[i];
+            }
+            else {
+
+            }
+            b++;
         }
     }
 }
