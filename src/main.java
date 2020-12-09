@@ -29,7 +29,7 @@ public class main{
             moneyCollection.collectionAmount();
         }
         else if (menu == 2) {
-            casesCollected();
+            moneyCollection.totalCollected();
         }
         else if (menu == 3) {
 
@@ -39,10 +39,4 @@ public class main{
 
 
     }
-
-    //This method below will keep track of the cases of soda that are used
-   public static int casesCollected (){
-       System.out.println("Dope");
-        return  0;
-   }
 }

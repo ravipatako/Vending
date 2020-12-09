@@ -19,7 +19,17 @@ public class moneyCollection {
         //returning the money that was collected at set date to be used elsewhere
         return moneyCollected;
     }
+    //This method below takes the cases total collected
     public static void totalCollected(){
-        
+        Scanner inputCases = new Scanner(System.in);
+        int [] casesCollected = new int[5];
+        /** Creating the array that will hold the amount of cases collected in each element.
+         * The each element of the array is the responding to each month. Element 0 is for Jan 2021.
+         **/
+
+        for(int i = 0; i < casesCollected.length; i++){
+            System.out.println("Enter the numbers");
+            casesCollected[i] = inputCases.nextInt();
+        }
     }
 }
