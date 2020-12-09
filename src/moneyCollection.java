@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Date;
 
@@ -32,8 +33,8 @@ public class moneyCollection {
         }
         **/
         //Creating a while loop to go through the array and check if there is an element. If there is none then it stops
-        int b = 0;
-        while(b < 5){
+
+        while(int b = 0; b < 5){
             if(casesCollected[i] == 0){
                 return casesCollected[i];
             }
