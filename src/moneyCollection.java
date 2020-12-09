@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Date;
 
@@ -11,14 +12,14 @@ public class moneyCollection {
         //Creating the scanner for the amount
         Scanner newScanner = new Scanner(System.in);
         System.out.println("Please enter the amount: ");
-        int moneyCollected = newScanner.nextInt();
+        double moneyCollected = newScanner.nextInt();
 
         //Printing out everything that was collected
         System.out.println("Today " + todayDate + " You collected: " + moneyCollected);
 
         //Creating the array list to have all the collection amounts
-        ArrayList<Integer> collectionAmounts = new ArrayList<Integer>();
-        collectionAmounts.add(moneyCollected);
+        double [] collectionAmounts = new double[25];
+        
 
 
     }
