@@ -15,11 +15,11 @@ public class moneyCollection {
         //Printing out everything that was collected
         System.out.println("Today " + todayDate + " You collected: " + moneyCollected);
 
+
         //returning the money that was collected at set date to be used elsewhere
         return moneyCollected;
     }
     public static void totalCollected(){
-
+        
     }
-
 }
