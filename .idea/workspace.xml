@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec47898-8ebe-4f03-b20b-be22d9b53b30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VendingMachineApp/moneyCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VendingMachineApp/moneyCollection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/moneyCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/moneyCollection.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,6 +66,7 @@
       <updated>1589238636497</updated>
       <workItem from="1589238640891" duration="1728000" />
       <workItem from="1607355797416" duration="11395000" />
+      <workItem from="1607605692016" duration="1046000" />
     </task>
     <task id="LOCAL-00001" summary="Pushing from IDE">
       <created>1607439333214</created>
